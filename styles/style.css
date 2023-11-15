@@ -1,7 +1,8 @@
 /* general */
-.html{
+.html {
     scroll-behavior: smooth;
 }
+
 .overlay {
     position: absolute;
     z-index: 10;
