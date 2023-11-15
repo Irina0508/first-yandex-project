@@ -1,1 +1,1 @@
-https://github.com/Irina0508/first-yandex-project.git
+https://github.com/Irina0508/ono-tebe-nado.git
