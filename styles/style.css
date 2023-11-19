@@ -237,9 +237,15 @@ header {
     width: 430px;
     min-height: 450px;
     list-style-type: none;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.lots-card-list a {
+    z-index: 11;
+    text-underline-offset: 3px;
 }
 
 .lots-card-list h3 {
@@ -251,6 +257,7 @@ header {
 
 .lots-card-list p {
     line-height: 24px;
+    z-index: 11;
 }
 
 .lots-card-list-film {
