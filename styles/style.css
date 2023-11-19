@@ -218,6 +218,7 @@ header {
     padding-left: 40px;
     display: flex;
     flex-direction: column;
+    text-transform: uppercase;
 }
 
 .lots-card-list {
