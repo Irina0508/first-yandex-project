@@ -23,13 +23,15 @@
     line-height: 22px;
 }
 
-.list-item-active{
+.list-item-active {
     list-style-type: none;
 }
+
 .list-item-inactive {
     list-style-type: circle;
 
 }
+
 .list-item-active a {
     text-decoration: none;
 }
@@ -248,16 +250,19 @@ header {
     min-height: 450px;
     list-style-type: none;
     position: relative;
+}
+
+.lots-card-list-link {
+    height: 100%;
+    text-underline-offset: 3px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.lots-card-list a {
-    text-underline-offset: 3px;
+    text-decoration: none;
 }
 
 .lots-card-list h4 {
+    text-decoration: underline;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: bold;
