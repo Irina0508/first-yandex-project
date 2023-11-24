@@ -24,10 +24,10 @@
 }
 
 .list-item-active {
-    list-style-type: none;
+    display: inline;
 }
 
-.list-item-active a {
+.list-item-active > a {
     text-decoration: none;
 }
 
@@ -234,6 +234,8 @@ header {
     color: white;
     font-size: 20px;
     white-space: normal;
+    flex-wrap: wrap;
+    gap: 22px;
 }
 
 .lots-card-list li {
@@ -244,6 +246,7 @@ header {
     min-height: 450px;
     list-style-type: none;
     position: relative;
+    flex-grow: 1;
 }
 
 .lots-card-list-link {
@@ -344,6 +347,7 @@ header {
     flex-direction: column;
     gap: 29px;
     font-size: 20px;
+    line-height: 23px;
 }
 
 /*footer*/
